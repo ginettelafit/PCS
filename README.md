@@ -462,6 +462,6 @@ The following plots show the networks estimated by the different methods.
 
 The next plots show the networks after applying PCS. 
 
-<img src="GMM_PCS.png" width=2500>
+<img src="GGM_PCS.png" width=2500>
 
 
