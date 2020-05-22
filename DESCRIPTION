@@ -1,11 +1,14 @@
 Package: PCS
 Type: Package
-Title: What the Package Does (Title Case)
+Title: A partial correlation screening approach for controlling the false positive rate in sparse Gaussian Graphical Models
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Gientte Lafit
+Maintainer: Ginette Lafit <ginette.lafit@kuleuven.be.net>
+Description: The R package includes functions to perform partical correlation screening to control the false positive rate better. 
+   The approach consists of two steps: First, it estimates an undirected network using one of the three state-of-the-art 
+   estimation approaches: nodewise regression using lasso, Glasso and SPACE. Second, it detects the false positives, 
+   by flagging the partial correlations that are smaller in absolute value than a given threshold, 
+   which is determined through cross-validation; the flagged correlations are set to zero. 
+License: GPL-2
 Encoding: UTF-8
 LazyData: true
