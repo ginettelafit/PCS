@@ -16,7 +16,7 @@ devtools::install_github("ginettelafit/PCS", force = T)
 ## Example - simulate data 
 
 To illustrate how the PCS approach works, we simulated data by drawing 100 independent observations from a multivariate Gaussian distribution with mean zero and partial correlation matrix ![](http://latex.codecogs.com/svg.latex?%5Cboldsymbol%7B%5CGamma%7D). We consider the dimension to be euqual to 20. 
-We assumed 2 neighbor Chain Graph for the population partial correlation matrix, in which ![](http://latex.codecogs.com/svg.latex?%5Crho_%7Bii%7CV%5Csetminus%20%5C%7Bi%5C%7D%7D%3D1), ![]((http://latex.codecogs.com/svg.latex?%5Crho_%7Bi%2Ci&plus;1%7CV%5Csetminus%20%5C%7Bi%2Ci&plus;1%5C%7D%7D) and ![]((http://latex.codecogs.com/svg.latex?%5Crho_%7Bi-1%2Ci%7CV%5Csetminus%20%5C%7Bi%2Ci-1%5C%7D%7D) equal to -0.4, and all other edges are set to 0.
+We assumed 2 neighbor Chain Graph for the population partial correlation matrix, in which ![](http://latex.codecogs.com/svg.latex?%5Crho_%7Bii%7CV%5Csetminus%20%5C%7Bi%5C%7D%7D%3D1), ![](http://latex.codecogs.com/svg.latex?%5Crho_%7Bi%2Ci&plus;1%7CV%5Csetminus%20%5C%7Bi%2Ci&plus;1%5C%7D%7D) and ![](http://latex.codecogs.com/svg.latex?%5Crho_%7Bi-1%2Ci%7CV%5Csetminus%20%5C%7Bi%2Ci-1%5C%7D%7D) equal to -0.4, and all other edges are set to 0.
 
 ```
 library(Rlab)
