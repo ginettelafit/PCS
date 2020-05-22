@@ -448,7 +448,7 @@ library(huge)
 ```
 ## Performance measures
 
-First, we introduce a function to copmute the adjacency matrix for the estimated GGMs.
+First, we introduce a function to compute the adjacency matrix for the estimated GGMs.
 
 ```
 # Compute Adjacency Matrix
@@ -468,7 +468,7 @@ Adj_mat = matrix(0,p,p)
 return(Adj_mat)}
 ```
 
-The following function computes estimates the regression Weights and the precision matrix for the estimated GGMs.
+The following function estimates the regression weights and the precision matrix for the estimated GGMs.
 
 ```
 Omega.GGM = function(x,Adj.mat){
