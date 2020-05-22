@@ -451,8 +451,6 @@ library(huge)
 First, we introduce a function to compute the adjacency matrix for the estimated GGMs.
 
 ```
-# Compute Adjacency Matrix
-
 Adj_mat = function(Omega){
 
 p = dim(Omega)[1]
